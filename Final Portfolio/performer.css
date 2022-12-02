@@ -1,0 +1,179 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    position: relative;
+width: 1440px;
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.background{
+    position: absolute;
+width: 1440px;
+height: 900px;
+left: 0px;
+top: 0px;
+animation: fadeIn 5s ease-in-out;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.performer{
+    position: absolute;
+width: 515px;
+height: 133px;
+left: 309px;
+top: 271px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 100px;
+line-height: 121px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;}
+
+.remix{
+    position: absolute;
+width: 350px;
+height: 61px;
+left: 526px;
+top: 431px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+.descript{
+    position: absolute;
+width: 1222px;
+height: 180px;
+left: 109px;
+top: 1118px;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 59px;
+
+color: #000000;
+
+}
+
+.detail{
+    position: absolute;
+width: 950px;
+height: 205px;
+left: 380px;
+top: 1363px;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.view{
+    position: absolute;
+width: 75px;
+height: 29px;
+left: 1230px;
+top: 1525px;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+
+color: #3332328c;
+background-color: white;
+border:none;
+/* border-bottom: 1px rgba(43, 43, 43, 0.222) solid; */
+
+}
+
+.detail2{
+    position: absolute;
+    width: 945px;
+    height: 119px;
+    left:380px;
+    top: 1568px;
+    
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+   display:none;
+}
+
+.projectimage{
+  position: absolute;
+width: 1252px;
+height: 800px;
+left: 94px;
+top: 1822px;
+
+}
+
+.demo{
+  position: absolute;
+width: 155px;
+height: 78px;
+left: 113px;
+top: 1827px;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+}
